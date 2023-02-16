@@ -10,7 +10,7 @@
   "files": [
     "build"
   ],
-  "types": "./build\\index.d.ts",
+  "types": "./build\\main.d.ts",
   "license": "ISC",
   "scripts": {
     "start": "expo start --dev-client",

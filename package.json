@@ -1,5 +1,5 @@
 {
-  "name": "@stacklycore/rnui",
+  "name": "@stacklycore/whil_repo",
   "description": "Library RNUI",
   "version": "0.0.2",
   "main": "build/index.js",
@@ -8,13 +8,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "types": "./build\\index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StacklyCode/StacklyRNUI.git"
-  },
-  "author": "Johan Perez (Yuborama)",
   "license": "ISC",
-  "homepage": "https://www.stacklycode.com",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",

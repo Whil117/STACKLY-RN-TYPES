@@ -2,7 +2,6 @@ import commonjs from "@rollup/plugin-commonjs";
 import json from "@rollup/plugin-json";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
-
 const config = [
   {
     input: "main.ts",
@@ -11,12 +10,6 @@ const config = [
       {
         file: "build/index.js",
         format: "cjs",
-        sourcemap: true,
-      },
-      {
-        file: "build/main.d.ts",
-        format: "cjs",
-        sourcemap: true,
       },
     ],
     plugins: [

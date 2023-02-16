@@ -1,5 +1,5 @@
 {
-  "name": "@stacklycore/whil_repo",
+  "name": "@whil/whil_repo_example_rn",
   "description": "Library RNUI",
   "version": "0.0.2",
   "main": "build/index.js",
